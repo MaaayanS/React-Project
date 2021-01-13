@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+     width: 80%; /*How much space it will take up on the screen*/
+}
+
+@media (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+}
